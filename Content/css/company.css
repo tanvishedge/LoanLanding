@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    }
+    body {margin: 0;}
+    .header {
+    padding: 0px;
+    text-align: center;
+    background:#FFF;
+    color: white;
+    }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Style the header */
+      header {
+        background-color: #EAEDED;
+        padding: 20px 20px 10px 20px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      
+     
+       /*------------------------navbar----------------------------------*/
+
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 0px 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #ACA8BF;
+}
+
+      
+      /* Style the list inside the menu */
+      .div{
+        display: block;
+      }
+      
+      Company-details {
+        float: left;
+        padding: 20px;
+        width: 100%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+      }
+      
+      /* Clear floats after the columns */
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+        nav, section {
+          width: 100%;
+          height: auto;
+        }
+      }
+      
+       .btn-companyglance {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        line-height: 0;
+        padding: 10px 40px;
+        border-radius: 10px;
+        transition: 0.5s;
+        color: black;
+        background: #EAEDED;
+        align-items: center;
+        font-weight: 600;
+      }
+      
+      .btn-companyglance a{
+        text-decoration: none;
+      }
+
+      btn-companyglance span {
+        font-family: "Nunito", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-decoration: none;
+      }
+      .Comp{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+      }
+      .titlehead{
+        font-weight: 600;
+        margin-left:15px;
+      }
+      .titledetails{
+        font-weight: 200;
+        margin-left:15px;
+      }
+      .Isinhead{
+        font-weight: 600;
+       
+      }
+      .isindet{
+        font-weight: 200;
+      }
+      
+      .available{
+      background: transparent linear-gradient(104deg, #EE8A4C 0%, #BB5BE0 100%) 0% 0% no-repeat padding-box;
+      color: #fff;
+      width: 20%;
+      text-align:center ;
+      border-radius: 25px;
+      margin-top:20px;
+    }
+      
+    .card{
+      margin-left: 20px;
+      margin-top:5px;
+      width:80%;
+      border: 2px solid  #D82D70;
+      border-radius: 40px 40px 40px 40px;
+    }
+
+      
+     .card .btn-Buy {
+        margin-top: 20px;
+        margin-bottom: 2px;
+        padding:10px;
+        line-height: 0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: 0.5s;
+        color: #fff;
+        background: transparent linear-gradient(104deg, #EE8A4C 0%, #BB5BE0 100%) 0% 0% no-repeat padding-box;
+        align-items: center;
+      }
+      .card .btn-Buy span {
+        font-family: "Nunito", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0.1px;
+      }
+      
+      .card .btn-Sell {
+        margin-top: 20px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+        padding:10px;
+        line-height: 0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: 0.5s;
+        color: #fff;
+        background: transparent linear-gradient(104deg, #EE8A4C 0%, #BB5BE0 100%) 0% 0% no-repeat padding-box;
+        align-items: center;
+      }
+      .card .btn-Sell span {
+        font-family: "Nunito", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0.1px;
+      }
+      .card .cardlot{
+        padding:8px;
+       
+        font-weight: 600;
+      }
+      .card .cardlotpurchase{
+        padding:4px 8px 0px 8px;
+       font-weight: 600;
+      }
+
+      .card .pricelot{
+       padding:18px;
+       
+      }
+      hr{
+        border:1px solid black;
+      }
+
+      .Availableon h6{
+        font-weight: 600;
+      }
+      .NoShares{
+        margin-bottom: 40px;
+      }
+
+
+      @media only screen and  (max-width: 50%) {
+        .card {
+          background-color: #FFF;
+        }
+          
+      }
