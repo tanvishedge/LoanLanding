@@ -1,0 +1,185 @@
+
+ .row>* {
+    flex-shrink: 0;
+    margin-top: var(--cui-gutter-y);
+    max-width: 100%;
+    padding-left: calc(var(--cui-gutter-x)*.5);
+    padding-right: calc(var(--cui-gutter-x)*.5);
+    width: 100%;
+}
+.my-2 {
+    margin-bottom: 0.5rem!important;
+    margin-top: 0.5rem!important;
+}
+.about-content .left_about_content {
+    width: 90%;
+}
+.about-content .title {
+    color: #002733;
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    margin-top: 160px;
+    padding: 15px 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.slider-row {
+    height: 150px;
+    margin: 20px 0;
+}
+.slider_box .slider-row .slide-content-box {
+    background: #fff;
+    border: 3px solid #0466c8;
+    border-radius: 11px;
+    box-shadow: 0 0 25px rgb(0 0 0 / 5%);
+    box-sizing: border-box;
+    height: 150px;
+    margin-right: auto;
+    padding: 19px;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+}
+.slider_box .slider-row .label {
+    border-radius: 19px;
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 2.5px 15px;
+    position: absolute;
+    right: 10px;
+    text-transform: capitalize;
+    top: 10px;
+}
+
+
+.about-content .title:before {
+    background-color: #0466c8;
+    border-radius: 5px;
+    bottom: 0;
+    content: "";
+    height: 5px;
+    position: absolute;
+    width: 100px;
+}
+.about-content .small-desc {
+    color: #6c757d;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.slider_box .slider-row .slide-content-box {
+    position: relative;
+}
+
+.slider_box .slider-row .slide-content-box {
+    position: relative;
+}
+.card-labal-1 {
+    background: rgba(0,128,0,.1);
+    color: green;
+}
+.slider_img {
+    height: 150px;
+    object-fit: contain;
+    width: 150px;
+}
+img, svg {
+    vertical-align: middle;
+}
+.slider_box .slider-row .border_box {
+    cursor: pointer;
+    padding: 10px;
+}
+.slider_box {
+    padding-bottom: 30px;
+    padding-top: 0;
+    height: 150px;
+    margin: 20px 0;
+}
+div {
+    display: block;
+}
+.marquee-container {
+    overflow-x: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: 100%;
+}
+element.style {
+    --pause-on-hover: running;
+    --pause-on-click: running;
+    --gradient-color: rgba(244, 245, 247, 1), rgba(244, 245, 247, 0);
+    --gradient-width: 50px;
+}
+
+* {
+    scroll-behavior: auto!important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.overlay::before, .overlay::after {
+    background: linear-gradient(to right, var(--gradient-color));
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: var(--gradient-width);
+    z-index: 2;
+}
+
+.marquee {
+    flex: 0 0 auto;
+    min-width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
+    animation-play-state: var(--play);
+    animation-delay: var(--delay);
+    animation-direction: var(--direction);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.marquee-container:hover div {
+    animation-play-state: var(--pause-on-hover);
+}
+style attribute {
+    --pause-on-hover: running;
+    --pause-on-click: running;
+}
+.slider-view-box {
+    margin: 30px 0;
+    position: relative;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+.m-0 {
+    margin: 0!important;
+}
+style attribute {
+    --play: running;
+    --direction: normal;
+    --duration: 26.4s;
+    --delay: 1s;
+    --iteration-count: infinite;
+}
+style attribute {
+    --pause-on-hover: running;
+    --pause-on-click: running;
+}
