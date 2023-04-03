@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>BlinkLoan - Index</title>
+    <title>BlinkLoan - Test</title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
@@ -16,157 +16,48 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+    <script src="Content/vendor/bootstrap/js/bootstrap.js"></script>
+
     <!-- Vendor CSS Files -->
-    <link href="Content/bootstrap.css" rel="stylesheet" />
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet">
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="Content/css/style.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="assets/css/slider.css"> -->
 
-    <style type="text/css">
-        .btn-get-started {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 12px 36px;
-            gap: 10px;
-            position: absolute;
-            width: auto;
-            height: auto;
-            left: 992px;
-            top: 14px;
-            background: linear-gradient(90deg, #FF4747 0%, #CF46FF 100%, #CF46FF 100%);
-            border-radius: 48px;
-            border: 0px;
-            font-family: 'Be Vietnam Pro';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 24px;
-            display: flex;
-            align-items: center;
-            text-transform: uppercase;
-            /*color: #FFFFFF;*/
-        }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-        .btn-start-now {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 12px 36px;
-            gap: 10px;
-            /*position: absolute;*/
-            width: auto;
-            height: auto;
-            /* left: 992px;
-            top: 14px;*/
-            background: linear-gradient(90deg, #FF4747 0%, #CF46FF 100%, #CF46FF 100%);
-            border-radius: 48px;
-            border: 0px;
-            font-family: 'Be Vietnam Pro';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 24px;
-            display: flex;
-            align-items: center;
-            text-transform: uppercase;
-            /*color: #FFFFFF;*/
-        }
-
-        .btn-get-started:hover {
-            font-weight: bold;
-        }
-
-        .container-header {
-            /*position: absolute;*/
-            width: 100%;
-            height: 100%;
-            left: 0px;
-            top: 0px;
-            background: #10172A;
-            backdrop-filter: blur(25px);
-        }
-
-        .vector {
-            position: absolute;
-            left: 75.22%;
-            right: 76.22%;
-            top: 95.6%;
-            bottom: 22.6%;
-            background: #10172A;
-        }
-
-        .logo {
-            position: absolute;
-            width: 157px;
-            height: 52.68px;
-            left: 113px;
-            top: 12px;
-        }
-
-        .brandcolor {
-            /*position: absolute;*/
-            /*top: 40%;
-            left: 40%;*/
-            font-size: 50px;
-            font-family: Be Vietnam Pro;
-            color: #FFFFFF;
-            background: linear-gradient(90deg, #FF4747 0%, #CF46FF 100%, #CF46FF 100%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-        }
-
-        @@keyframes scroll {
-            0% {
-                transform: translateX(0%);
-            }
-
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-    </style>
 </head>
 <body style="background-color: #10172A">
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
-        <div class="container-header">
-            <div>
-                <nav id="nav1" class="navigation">
-                    <div class="nav-header pt-4" href="/">
-                        <a href="index.html" class="logo">
-                            <img src="Content/img/blinkxbucks1.png" alt="logoimg" class="img-fluid" />
-                        </a>
-                    </div>
-                    <div>
-                        <div class="vector">
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" color="#FFFFFF" style="color: #FFFFFF" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                        </div>
-                        <button type="button" id="open_account" class="btn-get-started">Get Started</button>
-                    </div>
-                </nav>
-            </div>
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="Content/img/blinkxbucks1.png" alt="logoimg" class="img-fluid">
+            </a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#main" style="color:#FFFFFF">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="#about" style="color:#FFFFFF">About Us</a></li>
+                    <li><a class="nav-link scrollto active" href="#contact" style="color:#FFFFFF">Contact us</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
         </div>
     </header><!-- End Header -->
 
     <section id="main" class="container-header">
         <div class="container">
-            <div id="main" class="col-12 d-flex">
-                <div class="col-md-6" style="margin-top:10%">
-                    <h1 style="align-items: center; color: #FFFFFF; font-family: Be Vietnam Pro; font-size:50px">Say Yes to <span class="brandcolor"> Loans</span></h1>
-                    <h1 style="align-items: center; color: #FFFFFF; font-family: Be Vietnam Pro; font-size: 50px ">No to <span class="brandcolor"> Loss</span></h1>
-                    <h3 style="font-family: Be Vietnam Pro; font-size:20px; align-items:center; color:#FFFFFF">Get your disbursal in 10 minutes</h3><br />
-                    <div class="input-group mb-3" style="width:70%">
-                        <input type="text" class="form-control" placeholder="Enter mobile no." aria-label="Enter mobile no." aria-describedby="basic-addon2">
-                        <span class="input-group-text btn-start-now" id="basic-addon2">Start Now</span>
-                    </div>
+            <!--<div id="main" class="col-12 d-flex">-->
+            <div class="row">
+                <div class="col-md-6 pt-5 mt-5">
+                    <h1 class="customfontheader" style="align-items: center; color: #FFFFFF; font-size: 50px">Say Yes to <span class="brandcolor"> Loans</span></h1>
+                    <h1 class="customfontheader" style="align-items: center; color: #FFFFFF; font-size: 50px ">No to <span class="brandcolor"> Redemption</span></h1>
+                    <h3 class="customfontlight" style="font-size:20px; align-items:center; color:#FFFFFF">Get your disbursal in 10 minutes</h3><br />
+
                 </div>
-                <div class="col-md-6">
-                    <img src="Content/img/Group 12160.png" class="img-fluid" />
+                <div class="col-md-6 pt-5 mt-4">
+                    <img src="Content/img/Group 12160.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -175,227 +66,340 @@
     <section id="Services">
         <div class="container-fluid" style="padding-top: 1px;padding-bottom: 1px;">
             <div class="Section-header text-center">
-                <h5>Here’s why you should NOT choose Blinkx.Bucks ?</h5>
+                <h5 class="customfontheader">Here’s why you should NOT choose Blinkx.Bucks ?</h5>
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="service-box">
+                            <!-- <img src="assets/img/Seamless and simple registration.png"  style="width:100%;height: 80%;" -->
+                            <img src="Content/img/2.png" alt="SeamlessRegistration"><br> <br>
+                            <h3 class="customfontlight">If you love paying hefty charges</h3>
 
-                <div class="row">
-                    <div class="col-md-12 d-flex">
-                        <div class="col-lg-4 col-md-4">
-                            <div class="service-box">
-                                <!-- <img src="assets/img/Seamless and simple registration.png"  style="width:100%;height: 80%;" -->
-                                <img src="Content/img/Paying.jpeg"
-                                     alt="SeamlessRegistration"><br> <br>
-                                <h3>If you love paying hefty charges</h3>
-
-                            </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="service-box">
-                                <!-- <img src="assets/img/Curated by the best investment minds.png"  style="width:60%;height: 80%;" -->
-                                <img src="Content/img/Paying.jpeg"
-                                     alt="CustomerFriendlyTeam"><br> <br>
-                                <h3>If you love tedious paperwork</h3>
-                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="service-box">
+                            <!-- <img src="assets/img/Curated by the best investment minds.png"  style="width:60%;height: 80%;" -->
+                            <img src="Content/img/6.png"
+                                 alt="CustomerFriendlyTeam"><br> <br>
+                            <h3 class="customfontlight">If you love tedious paperwork</h3>
                         </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="service-box">
-                                <!-- <img src="assets/img/How to access US markets.png"  style="width:100%;height: 80%;" -->
-                                <img src="Content/img/Waiting.jpeg"
-                                     alt="HassleFreeProcess"><br> <br>
-                                <h3>If you love waiting.. waiting.. waiting</h3>
-                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="service-box">
+                            <!-- <img src="assets/img/How to access US markets.png"  style="width:100%;height: 80%;" -->
+                            <img src="Content/img/8.png"
+                                 alt="HassleFreeProcess"><br> <br>
+                            <h3 class="customfontlight">If you love waiting.. waiting.. waiting</h3>
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-   
+
     <section id="Activation">
         <div class="container-fluid" style="padding-top: 1px;padding-bottom: 1px;">
             <div class="Section-header text-center">
-                <h5><span class="brandcolor">4 steps</span> to Easy Activation?</h5>
+                <h5 class="customfontheader"><span class="brandcolor">3 steps</span> to Easy Activation?</h5>
                 <h6 style="font-weight: 400;font-size: 18px;line-height: 20px;color: #fff;">Start your activation right away!</h6>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-6">
                         <div class="row">
-                            <div class="col-md-12">
-                                <button class="btnActivation">Choose your own loan terms</button>
+                            <div class="col-12">
+                                <button class="btnActivation customfont">Choose your own loan terms</button>
                             </div>
-                            <div class="col-md-12">
-                                <button class="btnActivation">Select the Mutual Funds of your choice</button>
+                            <div class="col-12">
+                                <button class="btnActivation customfont">Select the Mutual Funds of your choice</button>
                             </div>
-                            <div class="col-md-12">
-                                <button class="btnActivation">Get the money in your account in 10 mins</button>
+                            <div class="col-12">
+                                <button class="btnActivation customfont">Get the money in your account in 10 mins</button>
                             </div>
 
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="Content/img/Dark_Zero in on the investment amount.png" alt="">
+                        <img src="/Content/img/Loan Tenure Op 442.png" class="img-fluid" alt="logoimg">
                     </div>
                 </div>
 
             </div>
         </div>
-        @*</div>*@
     </section>
 
-    <section id="faq">
+    <section id="faq" class="Section-header pt-5 pb-5">
+        <div class="container" data-aos="fade-up">
+            <header class="text-center" style="color:#fff">
+                <h5 class="customfontheader" style="margin-bottom: 30px;">Frequently Asked Questions</h5>
+            </header>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="accordion accordion-flush" id="faqlist1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed customfont" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                    1. What is a loan against shares?
+                                </button>
+                            </h2>
+                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body customfont">
+                                    In the private markets, investors acquire shares of a company that is still private and is not yet
+                                    listed in the public markets or on  the Stock Exchanges.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed customfont" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                    2. What happens in case of any divided/split/bonus issue on the shares we pledge for E-Las?
+                                </button>
+                            </h2>
+                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body customfont">
+                                    Client is eligible for all the benefits announced by the company during the loan period.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed customfont" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                    3. Is there any option to make pre-payment on loan amount, fully or partially?
+                                </button>
+                            </h2>
+                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body customfont">
+                                    Yes, client can settle the loan amount before the tenure without any additional charges.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed customfont" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                    4. How will the disbursement of loan against shares be done?
+                                </button>
+                            </h2>
+                            <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body customfont">
+                                    The loan will be directly transferred to your bank account linked with your demat account.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed customfont" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                                    5. What happens if client doesn't maintain the required LTV (Loan to Value) percentage?
+                                </button>
+                            </h2>
+                            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body customfont">
+                                    Any shortfall in the maintenance of the 50% LTV occurring on account of movement in the share prices shall be made good within 7 working days by client.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed customfont" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
+                                    6. How much percentage of the pledged value can be availed as loan?
+                                </button>
+                            </h2>
+                            <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body customfont">
+                                    You can avail as high as 45% of the pledged value of shares as a loan.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <h2 style="color: #FFFFFF; font-weight: bold; font-family: Be Vietnam Pro; text-align:center">Frequently Asked Questions</h2>
-                <br /><br />
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                1. What is a loan against shares?
-                            </button>
-                        </h2>
-                        <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                Loan against shares is a financial instrument offered by JM Financial Products Ltd. that gives you access to funds against your shares.
-                            </div><br />
-                        </div>
-                    </div><br />
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex flex-column justify-content-center" style="text-align:center">
+                    <div class="content">
+                        <h1 class="customfontheader"><b>About Us</b></h1>
+                        <br><br />
+                        <h2 class="customfontlight">The New Way To Loan</h2>
+                        <p class="customfontlight">
+                            Blinkx.Bucks is a digital lending platform that provides loans against securities. We understand that financial emergencies can happen at any time, and we believe that everyone deserves quick and uncomplicated financing.
+                        </p>
+                        <br />
+                        <h2 class="customfontlight">Made tirelessly, for your ease</h2>
+                        <p class="customfontlight">
+                            Blinkx.Bucks is built for the investors of now. Our team ensures support right from the first application till the final disbursal.
+                        </p>
+                        <br />
+                        <h2 class="customfontlight">About JM Financial Products</h2>
+                        <p class="customfontlight">JM Financial Products Limited is a Systemically Important Non-Deposit Taking NBFC (NBFC-ND-SI) registered with the Reserve Bank of India.</p>
+                    </div>
                 </div>
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                2. What happens in case of any divided/split/bonus issue on the shares we pledge for E-Las?
-                            </button>
-                        </h2>
-                        <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                Client is eligible for all the benefits announced by the company during the loan period.
-                            </div><br />
-                        </div>
-                    </div><br />
-                </div>
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                3. Is there any option to make pre-payment on loan amount, fully or partially?
-                            </button>
-                        </h2>
-                        <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                Yes, client can settle the loan amount before the tenure without any additional charges.
-                            </div><br />
-                        </div>
-                    </div><br />
-                </div>
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                                4. How will the disbursement of loan against shares be done?
+            </div>
+        </div>
+    </section>
 
-                            </button>
-                        </h2>
-                        <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                The loan will be directly transferred to your bank account linked with your demat account.
-                            </div><br />
-                        </div>
-                    </div><br />
-                </div>
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                                5. What happens if client doesn't maintain the required LTV (Loan to Value) percentage?
+    <section id="contact" class="contact pt-5 pb-5" style="background-color:#FFFFFF">
+        <div class="container" data-aos="fade-up">
+            <header class="text-center">
+                <h5 style="margin-bottom: 30px; font-size: 30px;">Contact Us</h5>
+            </header>
 
-                            </button>
-                        </h2>
-                        <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                Any shortfall in the maintenance of the 50% LTV occurring on account of movement in the share prices shall be made good within 7 working days by client.
-                            </div><br />
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-12">
+                    <div class="row gy-5">
+                        <div class="col-md-3 text-center">
+                            <div class="info-box">
+                                <i class="bi bi-geo-alt"></i>
+                                <h3>Address</h3>
+                                <p>Great Oasis, 8th floor, Marol Industrial Area, <br>MIDC Road - 21, Marol, Andheri (E), Mumbai - 400093<br></p>
+                            </div>
                         </div>
-                    </div><br />
-                </div>
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
-                                6. How much percentage of the pledged value can be availed as loan?
-                            </button>
-                        </h2>
-                        <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                You can avail as high as 45% of the pledged value of shares as a loan.
-                            </div><br />
+                        <div class="col-md-3 text-center">
+                            <div class="info-box">
+                                <i class="bi bi-telephone"></i>
+                                <h3>Call Us</h3>
+                                <p>+91  022-69025800</p>
+                            </div>
                         </div>
-                    </div><br />
-                </div>
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
-                                7. Can the client trade in the scripts that have been pledged?
-
-                            </button>
-                        </h2>
-                        <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                Yes.
-                            </div><br />
+                        <div class="col-md-3 text-center">
+                            <div class="info-box">
+                                <i class="bi bi-envelope"></i>
+                                <h3>Email Us</h3>
+                                <p>info@blinkx.in<br>contact@blinkx.in</p>
+                            </div>
                         </div>
-                    </div><br />
-                </div>
-                <div class="row justify-content-center" style="color:#FFFFFF">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-8">
-                                8. How frequently is the portfolio revalued?
-
-                            </button>
-                        </h2>
-                        <div id="faq-content-8" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
-                            <div class="accordion-body">
-                                The portfolio will be revalued daily on the basis of close price of NSE.
+                        <div class="col-md-3 text-center">
+                            <div class="info-box">
+                                <i class="bi bi-clock"></i>
+                                <h3>Open Hours</h3>
+                                <p>Monday - Friday<br>9:00AM - 05:00PM</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-lg-8">
+                    <form action="#" method="post" class="php-email-form">
+                        <div class="row gy-4">
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 ">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </section>
+    </section><!-- End Contact Section -->
 
     <footer id="footer" class="footer">
         <div class="container" style="color:#FFFFFF">
-            <div class="col-12 d-flex">
+            <div class="row">
                 <div class="col-6">
-                    <a href="Content/doc/ELASFinalPrivacyPolicy_New.pdf" rel="noreferrer" target="_blank">
-                        <h6 style="color:#FFFFFF">Priavcy Policy |</h6>
-                    </a>
-                    <a href="Content/doc/GENERAL-TERMS-AND-CONDITIONS.pdf" rel="noreferrer" target="_blank">
-                        <h6>T &amp; C</h6>
-                    </a>
-                    <p>Copyright © 2022 blinkX | All rights reserved</p>
-                    <div class="img-fluid">
-                        blinkX is an initiative by &nbsp;
-                        <img src="Content/img/blinkxbucks1.png" alt="logoimg" style="width:20%" />
+                    <div class="col-12">
+                        <div class="d-flex">
+                            <a href="Content/doc/ELASFinalPrivacyPolicy_New.pdf" rel="noreferrer" target="_blank">
+                                <h6 style="color:#FFFFFF">Priavcy Policy |</h6>
+                            </a>&nbsp;&nbsp;
+                            <a href="Content/doc/GENERAL-TERMS-AND-CONDITIONS.pdf" rel="noreferrer" target="_blank">
+                                <h6 class="customfontlight" style="color:#FFFFFF">T &amp; C</h6>
+                            </a>
+                        </div>
 
+                        <p class="customfontlight">Copyright © 2022 blinkX | All rights reserved</p>
+                        <div class="img-fluid customfontlight">
+                            <img src="Content/img/blinkxbucks1.png" alt="logoimg" style="width:16%" />&nbsp;
+                            blinkX is an initiative by
+                        </div>
                     </div>
                 </div>
-                <div class="col-6" style="color:#FFFFFF">
+                <div class="col-6" style="color:#FFFFFF;">
                     <a class="img-fluid">
                         <img src="Content/img/blinkxbucks1.png" alt="logoimg" style="width:20%" />
                     </a>
-                    <div><br />Great Oasis, 8th floor, Marol Industrial Area, <br>MIDC Road - 21, Marol, Andheri (E), Mumbai - 400093 </div>
+                    <div class="customfontlight"><br />Great Oasis, 8th floor, Marol Industrial Area, <br>MIDC Road - 21, Marol, Andheri (E), Mumbai - 400093 </div>
                     <a href="tel:+912269025800" style="color:#FFFFFF;"> 022-69025800</a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script src="Content/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="Content/vendor/aos/aos.js"></script>
+    <script src="Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Content/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="Content/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="Content/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="Content/vendor/php-email-form/validate.js"></script>
+    <script src="Content/js/main.js"></script>
 </body>
 </html>
+<script type="text/javascript">
+    function myFunction() {
+        debugger
+        const name = document.getElementById("name").value;
+        const mailid = document.getElementById("mailid").value;
+        const subject = document.getElementById("subject").value;
+        const msg = document.getElementById("message").value;
+
+        //    var myHeaders = new Headers();
+        //    myHeaders.append("Content-Type", "application/json");
+
+        //    var raw = JSON.stringify({
+        //        "name": name,
+        //        "subject": subject,
+        //        "email": mailid,
+        //        "message": msg
+        //    });
+
+        //    var requestOptions = {
+        //        method: 'POST',
+        //        headers: myHeaders,
+        //        body: raw,
+        //        redirect: 'follow'
+        //    };
+        //    var result;
+        //    fetch("https://blinkx-loan-uat.el.r.appspot.com/EmailServlet", requestOptions)
+        //        .then(response => { return response.text() })
+        //        .then(result => console.log(result))
+        //        .catch(error => console.log('error', error));
+
+        //    var resp = console.log(response.text());
+        //}
+
+        var xhr = new XMLHttpRequest();
+        var url = "https://blinkx-loan-uat.el.r.appspot.com/EmailServlet";
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var json = JSON.parse(xhr.responseText);
+                console.log(json.email + ", " + json.password);
+            }
+            else {
+                console.log(xhr.response);
+            }
+        };
+        var data = JSON.stringify({ "name": name, "subject": subject, "email": mailid, "message": msg });
+        xhr.send(data);
+        console.log(xhr.responseText);
+        alert(xhr.response);
+    }
+</script>
